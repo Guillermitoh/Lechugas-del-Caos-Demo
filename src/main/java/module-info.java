@@ -5,6 +5,7 @@ module com.lechugasdelcaos.lechugasdelcaos {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens com.lechugasdelcaos.lechugasdelcaos to javafx.fxml;
     exports com.lechugasdelcaos.lechugasdelcaos;
